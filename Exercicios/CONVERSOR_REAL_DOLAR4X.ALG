@@ -1,9 +1,9 @@
-algoritmo "conversor_real_dolar4x"
+algoritmo "conversor_real_dolar"
 var
    R, D, C: real
 inicio
       C <- 1
-      Enquanto (C <= 4) faca
+      Enquanto (C <= 3) faca
       Escreval("Qual o valor em R$: ")
       Leia(R)
       D <- R/5.43
