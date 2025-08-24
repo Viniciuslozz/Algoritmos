@@ -3,11 +3,15 @@ var
    i: inteiro
    n, pesado: Caractere
    p, mai: real
+Procedimento topo()
 inicio
    Limpatela
    Escreval("---------------------------")
    Escreval("Maior peso ate agora: ", mai, "Kg")
    Escreval("---------------------------")
+fimprocedimento
+inicio
+   topo()
    Para i <- 1 ate 5 faca
       Escreval("Digite o nome: ")
       Leia(n)
@@ -17,14 +21,8 @@ inicio
          mai <- p
          pesado <- n
       Fimse
-      Limpatela
-      Escreval("---------------------------")
-      Escreval("Maior peso ate agora: ", mai, "Kg")
-      Escreval("---------------------------")
+      topo()
    FimPara
-   Limpatela
-   Escreval("---------------------------")
-   Escreval("Maior peso ate agora: ", mai, "Kg")
-   Escreval("---------------------------")
+   topo()
    Escreval("A pessoa mais pesada até agora foi: ", pesado, " com ", mai, " qilos. ")
 fimalgoritmo
