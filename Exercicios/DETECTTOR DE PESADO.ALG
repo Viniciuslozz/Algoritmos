@@ -8,7 +8,7 @@ inicio
    Escreval("---------------------------")
    Escreval("Maior peso ate agora: ", mai, "Kg")
    Escreval("---------------------------")
-   Para i <- ate 5 faca
+   Para i <- 1 ate 5 faca
       Escreval("Digite o nome: ")
       Leia(n)
       Escreva("Digite o peso de ", n, ": ")
@@ -21,5 +21,10 @@ inicio
       Escreval("---------------------------")
       Escreval("Maior peso ate agora: ", mai, "Kg")
       Escreval("---------------------------")
-      Escreval("A pessoa mais pesada até agora foi: ", pesado, " com ", mai, " qilos. ")
+   FimPara
+   Limpatela
+   Escreval("---------------------------")
+   Escreval("Maior peso ate agora: ", mai, "Kg")
+   Escreval("---------------------------")
+   Escreval("A pessoa mais pesada até agora foi: ", pesado, " com ", mai, " qilos. ")
 fimalgoritmo
